@@ -26,3 +26,15 @@ function switchOnCharmFromTip(tip) {
       return 'Bye.';
   }
 }
+
+console.log(scuberGreetingForFeet(300));
+console.log(scuberGreetingForFeet(1000));
+console.log(scuberGreetingForFeet(2300));
+console.log(scuberGreetingForFeet(3000));
+
+console.log(ternaryCheckCity("NYC"));
+console.log(ternaryCheckCity("Chicago"));
+
+console.log(switchOnCharmFromTip("generous"));
+console.log(switchOnCharmFromTip("not as generous"));
+console.log(switchOnCharmFromTip("whatever"));
